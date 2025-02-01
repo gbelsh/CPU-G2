@@ -1,0 +1,626 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/simulation/modelsim
+valu
+Z1 !s110 1708965177
+!i10b 1
+!s100 <KI:NGd>TWUgEf@2FC9gF3
+ICDd2fNW_?oooUbWPfnji^0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1708924620
+8C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/alu.v
+FC:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/alu.v
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1708965177.000000
+!s107 C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2|C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/alu.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2
+Z8 tCvgOpt 0
+vbus
+R1
+!i10b 1
+!s100 9JM9Z7oWSkG`EC;?=9QZQ3
+Idc;P>5S^EKlAFXmdDEmRN2
+R2
+R0
+Z9 w1708727209
+8C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/bus.v
+FC:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/bus.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/bus.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2|C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/bus.v|
+!i113 1
+R6
+R7
+R8
+vDatapath
+Z10 !s110 1708965176
+!i10b 1
+!s100 <78gK^L^VS`@66OBF1WE?0
+IC2FY<ob9L1NLZPT4mclzA3
+R2
+R0
+w1708965072
+8C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/Datapath.v
+FC:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/Datapath.v
+L0 1
+R4
+r1
+!s85 0
+31
+Z11 !s108 1708965176.000000
+!s107 C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/Datapath.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2|C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/Datapath.v|
+!i113 1
+R6
+R7
+R8
+n@datapath
+vdatapath_tb
+R1
+!i10b 1
+!s100 Sh?iEVg]9cg7CWd6S?:Bl2
+IXa2K15gV5a3C429WkkIZn1
+R2
+R0
+Z12 w1708959018
+8C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/datapath_tb.v
+FC:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/datapath_tb.v
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/datapath_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2|C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/datapath_tb.v|
+!i113 1
+R6
+R7
+R8
+vfourToOneMux
+R10
+!i10b 1
+!s100 GNhn8dkQzFAbzlf8dMoz?2
+IbOEiU:X6?hB;lOkf`abNz1
+R2
+R0
+Z13 w1708727210
+8C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/fourToOneMux.v
+FC:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/fourToOneMux.v
+L0 1
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/fourToOneMux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2|C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/fourToOneMux.v|
+!i113 1
+R6
+R7
+R8
+nfour@to@one@mux
+vFullAdder
+R10
+!i10b 1
+!s100 f>h_9930cZZGe;_=8^ZZN1
+IT;_XD3:@?F=8TZW@QOgI=1
+R2
+R0
+R9
+8C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/FullAdder.v
+FC:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/FullAdder.v
+L0 3
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/FullAdder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2|C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/FullAdder.v|
+!i113 1
+R6
+R7
+R8
+n@full@adder
+vGen_Reg
+R10
+!i10b 1
+!s100 TkQZ5?VH_n8La1;[WGfT_3
+I4i6dNA_6hZ6`zS_F8NEa;3
+R2
+R0
+R3
+8C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/Gen_Reg.v
+FC:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/Gen_Reg.v
+L0 1
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/Gen_Reg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2|C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/Gen_Reg.v|
+!i113 1
+R6
+R7
+R8
+n@gen_@reg
+vMAR_Reg
+R1
+!i10b 1
+!s100 B1@dk0P5E?2<h08Y:?:Nn3
+Ih>[hXe9@Vb4CH?j9?a2h?1
+R2
+R0
+w1708959085
+8C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/mar_reg.v
+FC:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/mar_reg.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/mar_reg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2|C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/mar_reg.v|
+!i113 1
+R6
+R7
+R8
+n@m@a@r_@reg
+vMDR_Reg
+R10
+!i10b 1
+!s100 gTBNUD<P3LiE:h:8Vj6_F3
+I[Un6[d[VTUT62S6@aR_RX1
+R2
+R0
+R3
+8C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/MDR_Reg.v
+FC:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/MDR_Reg.v
+L0 1
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/MDR_Reg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2|C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/MDR_Reg.v|
+!i113 1
+R6
+R7
+R8
+n@m@d@r_@reg
+vMultiplicaion
+R10
+!i10b 1
+!s100 R4XMKXY[e;=`h43ekVDVQ1
+IMTMFGOcWVFdHCm657DH:`2
+R2
+R0
+w1708962193
+8C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/Multiplication.v
+FC:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/Multiplication.v
+L0 1
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/Multiplication.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2|C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/Multiplication.v|
+!i113 1
+R6
+R7
+R8
+n@multiplicaion
+vMy_ADD
+R10
+!i10b 1
+!s100 Mbk81A3_WnEKa449VnF_;1
+Ij0<>?8j4=az5lK_JW6X;H3
+R2
+R0
+R9
+8C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/My_ADD.v
+FC:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/My_ADD.v
+L0 3
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/My_ADD.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2|C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/My_ADD.v|
+!i113 1
+R6
+R7
+R8
+n@my_@a@d@d
+vMy_AND
+R10
+!i10b 1
+!s100 Y0?2:oMZAbmNcgj:C<_]i2
+IWj:JQXcRRR:2D_iZL?4XM3
+R2
+R0
+w1708831575
+8C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/My_AND.v
+FC:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/My_AND.v
+L0 3
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/My_AND.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2|C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/My_AND.v|
+!i113 1
+R6
+R7
+R8
+n@my_@a@n@d
+vMy_NEGATE
+R10
+!i10b 1
+!s100 _=2__P]d0ZDHEPV:9SO301
+I3fYM6UCHif;P>mUYUfZ<?1
+R2
+R0
+Z14 w1708840833
+8C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/My_NEGATE.v
+FC:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/My_NEGATE.v
+L0 3
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/My_NEGATE.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2|C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/My_NEGATE.v|
+!i113 1
+R6
+R7
+R8
+n@my_@n@e@g@a@t@e
+vMy_NOT
+R10
+!i10b 1
+!s100 9l_cf78AjV>^S^gO448Cd0
+IR8Wz57j0>Hc0<AHkYlNYP3
+R2
+R0
+w1708728921
+8C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/My_NOT.v
+FC:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/My_NOT.v
+L0 3
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/My_NOT.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2|C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/My_NOT.v|
+!i113 1
+R6
+R7
+R8
+n@my_@n@o@t
+vMy_OR
+R10
+!i10b 1
+!s100 7B61@@^ODl;0D;8XEG4]H0
+ICOA7]SL5;H@5I]hI^B7PH1
+R2
+R0
+R9
+8C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/My_OR.v
+FC:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/My_OR.v
+L0 4
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/My_OR.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2|C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/My_OR.v|
+!i113 1
+R6
+R7
+R8
+n@my_@o@r
+vMy_SUBTRACT
+R10
+!i10b 1
+!s100 MQENM::P4<BkjRk3EWoC]0
+Ib>La;R7Dz_iVV:]NYOOXP0
+R2
+R0
+R14
+8C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/My_SUBTRACT.v
+FC:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/My_SUBTRACT.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z15 !s108 1708965175.000000
+!s107 C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/My_SUBTRACT.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2|C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/My_SUBTRACT.v|
+!i113 1
+R6
+R7
+R8
+n@my_@s@u@b@t@r@a@c@t
+vMy_XOR
+Z16 !s110 1708965175
+!i10b 1
+!s100 JlK6:4Vh8g4FL^Wg6nC6T3
+I5LMU:4:mAK<lcNB3oamR53
+R2
+R0
+R9
+8C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/My_XOR.v
+FC:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/My_XOR.v
+L0 4
+R4
+r1
+!s85 0
+31
+R15
+!s107 C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/My_XOR.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2|C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/My_XOR.v|
+!i113 1
+R6
+R7
+R8
+n@my_@x@o@r
+vPC_Reg
+R16
+!i10b 1
+!s100 8KTgiJ8JS<d<jbiPJR2Xb0
+I:k4>2=I>^W0043<FFn08V0
+R2
+R0
+R9
+8C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/PC_Reg.v
+FC:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/PC_Reg.v
+L0 1
+R4
+r1
+!s85 0
+31
+R15
+!s107 C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/PC_Reg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2|C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/PC_Reg.v|
+!i113 1
+R6
+R7
+R8
+n@p@c_@reg
+vRCAdder32
+R16
+!i10b 1
+!s100 OG`;[66gRiWdi1O8Q_M;70
+I[FcU=ejA2Fd7Xb1b7BL;z2
+R2
+R0
+R9
+8C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/RCAdder32.v
+FC:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/RCAdder32.v
+L0 4
+R4
+r1
+!s85 0
+31
+R15
+!s107 C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/RCAdder32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2|C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/RCAdder32.v|
+!i113 1
+R6
+R7
+R8
+n@r@c@adder32
+vrotate_left
+R16
+!i10b 1
+!s100 ^[YImOP`acXK7l3A7@O`F1
+I`b1C^3YR7@N2?z2DmlRYl2
+R2
+R0
+R3
+8C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/rotate_left.v
+FC:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/rotate_left.v
+L0 1
+R4
+r1
+!s85 0
+31
+R15
+!s107 C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/rotate_left.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2|C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/rotate_left.v|
+!i113 1
+R6
+R7
+R8
+vrotate_right
+R16
+!i10b 1
+!s100 1lIV[c@Nb:N3Q5mBUJc_h0
+IQeU^La7@h20Sg1nI;h[k=2
+R2
+R0
+R3
+8C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/rotate_right.v
+FC:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/rotate_right.v
+L0 1
+R4
+r1
+!s85 0
+31
+R15
+!s107 C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/rotate_right.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2|C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/rotate_right.v|
+!i113 1
+R6
+R7
+R8
+vSHL
+R16
+!i10b 1
+!s100 c4:>ZK7EaDdO8RW7hhVB;3
+I11GlT061NAFId;ZfY^E;U2
+R2
+R0
+R9
+8C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/SHL.v
+FC:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/SHL.v
+L0 3
+R4
+r1
+!s85 0
+31
+R15
+!s107 C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/SHL.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2|C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/SHL.v|
+!i113 1
+R6
+R7
+R8
+n@s@h@l
+vSHR
+R16
+!i10b 1
+!s100 1zjIA`:b]_IUB@JG`hX991
+IU=KWeB2UBH;I@`C?28Wmc0
+R2
+R0
+R9
+8C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/SHR.v
+FC:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/SHR.v
+L0 3
+R4
+r1
+!s85 0
+31
+R15
+!s107 C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/SHR.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2|C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/SHR.v|
+!i113 1
+R6
+R7
+R8
+n@s@h@r
+vThirtyTwoToFiveEncoder
+R16
+!i10b 1
+!s100 ?XKm8V?Je54k;6IS:Lm<_3
+IbHALEE;eO^C:OOj@EQ1J:0
+R2
+R0
+R9
+8C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/ThirtyTwoToFiveEncoder.v
+FC:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/ThirtyTwoToFiveEncoder.v
+L0 1
+R4
+r1
+!s85 0
+31
+R15
+!s107 C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/ThirtyTwoToFiveEncoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2|C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/ThirtyTwoToFiveEncoder.v|
+!i113 1
+R6
+R7
+R8
+n@thirty@two@to@five@encoder
+vThirtyTwoToOneMultiplexer
+R16
+!i10b 1
+!s100 >kR8U8z=AH1TaUGz1Qf0>0
+I`kjh<R``0PLYW]LReE5c42
+R2
+R0
+R13
+8C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/thirtyTwoToOneMultiplexer.v
+FC:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/thirtyTwoToOneMultiplexer.v
+L0 1
+R4
+r1
+!s85 0
+31
+R15
+!s107 C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/thirtyTwoToOneMultiplexer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2|C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/thirtyTwoToOneMultiplexer.v|
+!i113 1
+R6
+R7
+R8
+n@thirty@two@to@one@multiplexer
+vY_Reg
+R1
+!i10b 1
+!s100 S?G2cKI1@@fEH8G1[jndg0
+II[AhR9VB@224Jbg`41X>B1
+R2
+R0
+R12
+8C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/Y_Reg.v
+FC:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/Y_Reg.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/Y_Reg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2|C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/Y_Reg.v|
+!i113 1
+R6
+R7
+R8
+n@y_@reg
+vZ_Reg
+R16
+!i10b 1
+!s100 OB3jJm;>UeLYfL<JY:J:m3
+IA`T=9QmjC[`28I@X4DReg3
+R2
+R0
+R9
+8C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/Z_Reg.v
+FC:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/Z_Reg.v
+L0 1
+R4
+r1
+!s85 0
+31
+R15
+!s107 C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/Z_Reg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2|C:/intelFPGA_lite/18.1/elec374CPUProject/CPU-G2/Z_Reg.v|
+!i113 1
+R6
+R7
+R8
+n@z_@reg
